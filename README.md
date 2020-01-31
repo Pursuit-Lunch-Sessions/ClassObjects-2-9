@@ -1,18 +1,18 @@
 # Overview
 Preloaded for you in this lesson is a `class Animal`:
 
-  class Animal {
-    constructor(name, age, legs, species, status) {
-      this.name = name;
-      this.age = age;
-      this.legs = legs;
-      this.species = species;
-      this.status = status;
-    }
-    introduce() {
-      return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
-    }
-  }
+      class Animal {
+        constructor(name, age, legs, species, status) {
+          this.name = name;
+          this.age = age;
+          this.legs = legs;
+          this.species = species;
+          this.status = status;
+        }
+        introduce() {
+          return `Hello, my name is ${this.name} and I am ${this.age} years old.`;
+        }
+      }
 
 # Task
 Define the following classes that inherit from `Animal`.
