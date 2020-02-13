@@ -11,7 +11,7 @@ class Animal {
   }
 }
 
-class Shark { 
+class Shark extends Animal { 
   constructor(name, age, status) {
   this.name = name;
   this.age = age;
@@ -21,7 +21,7 @@ class Shark {
   } 
 }
 
-class Cat {
+class Cat extends Animal {
   constructor (name, age, status) {
     this.name = name;
     this.age = age;
@@ -34,7 +34,7 @@ class Cat {
   }
 }
 
-class Dog {
+class Dog extends Animal {
   constructor (name, age, status, master) {
     this.name = name;
     this.age = age;
